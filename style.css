@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+:root {
+  --bright-white: #f9faf8;
+  --white: #e5e7eb;
+  --light-blue: #3882f6;
+  --dark-blue: #1f2937;
+}
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: var(--dark-blue);
+}
+
+.hero {
+  font-size: 18px;
+  color: var(--white);
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--bright-white);
+}
+
+.button {
+  background-color: var(--light-blue);
+  border: solid 10px var(--bright-white);
+}
+
+#quote {
+  background-color: var(--white);
+  font-size: 36px;
+  font-style: italic;
+  color: var(--dark-blue);
+  font-weight: lighter;
+}
+#quote .customerName {
+  font-weight: bold;
+}
+
+#cta {
+  background-color: var(--light-blue);
+}
+
+.footer {
+  background-color: var(--dark-blue);
 }
